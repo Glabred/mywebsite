@@ -1,0 +1,82 @@
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: -10; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+/*  background-color: ;
+*/
+}
+
+/* Modal Content */
+.modal-content {
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.fake-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+img {
+    float: left;
+    height:  300px;
+    object-fit: cover;
+}
+
+#double{
+  height: 400px;
+}
+
+#me {
+  position: absolute;
+  right: 0;
+  transform: translateX(-100%);
+}
+#descrip {
+  width: 800px;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  right: 0;
+  transform: translateX(-100%);
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  transform: translateX(-120%);
+  background-color: rgba(210, 220, 247,1);
+  min-width: 500px;
+  min-height: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.25);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+/*.dropdown-content a:hover {background-color: #ddd;}
+*/
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/*.dropdown:hover .dropbtn {background-color: #3e8e41;}*/
